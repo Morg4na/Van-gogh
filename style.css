@@ -1,0 +1,196 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: yellow;
+}
+header{
+    background-color:rgb(60, 89, 117);
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    z-index: 10;
+}
+body{
+    background-color: orange;
+}
+.imagem-um{
+    background-image: url("Assets/olhar.jpg");
+    width:47vh;
+    height:70px;
+    margin-top: 0.2%;
+    margin-left: 0.8%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+.texto{
+    position: absolute;
+    text-align: center;
+    top: 44px;
+    left: 6%;
+    width:140px;
+    color: #FFFFFF;
+}
+h2:hover{
+    color:seashell;
+    font-weight: bold;
+}
+.imagem-dois{
+    background-image: url("Assets/olhar-dois.jpg");
+    width:49vh;
+    height:70px;
+    margin-top: 0.2%;
+    margin-left: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;  
+}
+.texto-doiss{
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    left: 32%;
+    width:140px;
+}
+.imagem-tres{
+    background-image: url("Assets/olhar-tres.jpg");
+    width:49vh;
+    height:70px;
+    margin-top: 0.2%;
+    margin-left: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;  
+}
+.texto-tres{
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    left: 57%;
+    width:140px;
+}
+.imagem-quatro{
+    background-image: url("Assets/olhar-quatro.jpg");
+    width:47vh;
+    height:70px;
+    margin-top: 0.2%;
+    margin-left: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;  
+}
+.texto-quatro{
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    left: 82%;
+    width:140px;
+}
+.main-fundo{
+    width: 100%;
+    position: relative;
+    background-image: url("Assets/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    height: 96vh;
+}
+.texts{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    opacity: 1;
+    color:whitesmoke;
+}
+.text-um{
+    width: 24%;
+    margin-top: 9.2%;
+    margin-left: 14%;
+    font-family: 'Playfair Display', serif;
+    font-size: 400%;
+}
+.text-dois{
+    width: 40%;
+    margin-top: 10%;
+    margin-right: 10%;
+    font-family: 'Playfair Display', serif;
+    font-size: 170%;
+}
+.foto-um{
+    width: 44%;
+    height: 44vh;
+    top: 640px;
+    left: 4%;
+    position: absolute; 
+    display: flex;
+}
+.foto-dois{
+    width: 44%;
+    height: 44vh;
+    top: 640px;
+    left: 52%;
+    position: absolute; 
+    display: flex;
+}
+.flor{
+    width: 34%;
+    height: 64vh;
+    top: 1000px;
+    left: 4%;
+    position: absolute; 
+}
+.frases{
+    width: 44%;
+    height: 40vh;
+    top: 1190px;
+    left: 28%;
+    position: absolute; 
+    background-color:slategrey;
+}
+.identidade{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    margin-left:4%;
+    font-size: 200%;
+}
+li{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    margin-left: 4%;
+    font-size: 130%;
+}
+.montagem{
+    width: 27%;
+    height: 76vh;
+    top: 1008px;
+    left: 69%;
+    position: absolute; 
+}
+footer{
+    width: 100%;
+    height: 90px;
+    background-color:rgb(60, 89, 117);
+    margin-top: 900px;
+}
+.final{
+    font-family: 'Playfair Display', serif;
+    margin-left:4%;
+    font-size: 140%;
+}
+.end{
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+.bloco{
+    width: 39%;
+    height: 12vh;
+    margin-left: 10%;
+}
