@@ -158,7 +158,7 @@ h2:hover{
     color: white;
     font-family: 'Playfair Display', serif;
     margin-left:4%;
-    font-size: 200%;
+    font-size:170%;
 }
 li{
     color: white;
@@ -167,7 +167,7 @@ li{
     font-size: 130%;
 }
 .montagem{
-    width: 27%;
+    width: 25%;
     height: 76vh;
     top: 1008px;
     left: 69%;
@@ -190,7 +190,7 @@ footer{
     display: flex;
 }
 .bloco{
-    width: 39%;
+    width: 36%;
     height: 12vh;
     margin-left: 10%;
 }
