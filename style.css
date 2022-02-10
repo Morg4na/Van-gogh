@@ -194,3 +194,191 @@ footer{
     height: 12vh;
     margin-left: 10%;
 }
+@media screen and (max-width: 380px){
+    header {
+        background-color:rgb(60, 89, 117);
+        position:fixed;
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        z-index: 10;  
+    }
+    h2:hover{
+        color:seashell;
+        font-weight: bold;
+    }
+    .main-fundo{
+        width: 100%;
+        position: relative;
+        background-image: url("Assets/fundo.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center ;
+        display: flex;
+        align-items: center;
+        color:#FFFFFF;
+        height: 70vh;
+    }
+    .texts{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        opacity: 1;
+        color:whitesmoke;
+    }
+    .text-um{
+        width: 54%;
+        margin-left: 10%;
+        font-family: 'Playfair Display', serif;
+        font-size:130%;
+        margin-top: 23%;
+    }
+    .text-dois{
+        width: 100%;
+        margin-top: 14%;
+        margin-right: 7%;
+        font-family: 'Playfair Display', serif;
+        font-size: 96%;
+        line-height: 120%;
+    }
+    .imagem-um{
+        background-image: url("Assets/olhar.jpg");
+        width:42vh;
+        height:40px;
+        margin-top: 0.2%;
+        margin-left: 0.8%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center ;
+    }
+    .texto{
+        position: absolute;
+        text-align: center;
+        top: 23px;
+        left: 5%;
+        width:30px;
+        color: #FFFFFF;
+        font-size: 70%;
+    }
+    .imagem-dois{
+        background-image: url("Assets/olhar-dois.jpg");
+        width:42vh;
+        height:40px;
+        margin-top: 0.2%;
+        margin-left: 2%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center ;  
+    }
+    .texto-doiss{
+        position: absolute;
+        text-align: center;
+        top: 55%;
+        left: 28%;
+        width:10px;
+        font-size: 70%;
+    }
+    .imagem-tres{
+        background-image: url("Assets/olhar-tres.jpg");
+        width:42vh;
+        height:40px;
+        margin-top: 0.2%;
+        margin-left: 2%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center ;  
+    }
+    .texto-tres{
+        position: absolute;
+        text-align: center;
+        top: 55%;
+        left: 52%;
+        width:10px;
+        font-size: 70%;
+    }
+    .imagem-quatro{
+        background-image: url("Assets/olhar-quatro.jpg");
+        width:42vh;
+        height:40px;
+        margin-top: 0.2%;
+        margin-left: 2%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center ;  
+    }
+    .texto-quatro{
+        position: absolute;
+        text-align: center;
+        top: 55%;
+        left: 82%;
+        width:30px;
+        font-size: 70%;
+    }
+    .foto-um{
+        width: 44%;
+        height: 24vh;
+        top: 400px;
+        left: 4%;
+        position: absolute; 
+        display: flex;
+    }
+    .foto-dois{
+        width: 44%;
+        height: 24vh;
+        top: 400px;
+        left: 52%;
+        position: absolute; 
+        display: flex;
+    }
+    .flor{
+        width: 34%;
+        height: 64vh;
+        top: 560px;
+        left: 4%;
+        position: absolute; 
+    }
+    .frases{
+        width: 68%;
+        height: 40vh;
+        top:694px;
+        left: 28%;
+        position: absolute; 
+        background-color:slategrey;
+    }
+    .identidade{
+        color: white;
+        font-family: 'Playfair Display', serif;
+        margin-left:4%;
+        font-size:90%;
+    }
+    li{
+        color: white;
+        font-family: 'Playfair Display', serif;
+        margin-left: 4%;
+        font-size: 96%;
+    }
+    .montagem{
+        display: none;
+    }
+    footer{
+        width: 100%;
+        height: 60px;
+        background-color:rgb(60, 89, 117);
+        margin-top: 600px;
+    }
+    .final{
+        font-family: 'Playfair Display', serif;
+        margin-left:4%;
+        font-size: 90%;
+    }
+    .end{
+        width: 100%;
+        height: 40px;
+        display: flex;
+    }
+    .bloco{
+        width: 19%;
+        height: 10vh;
+        margin-left: 20%;
+    }
+}
